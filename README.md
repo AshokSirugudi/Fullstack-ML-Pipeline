@@ -1,33 +1,77 @@
-# FullStack-ML-Pipeline
+# Fullstack ML Pipeline
 
-A professional-grade, full-cycle ML pipeline portfolio repository. This repo demonstrates your deep understanding of ML workflows, from raw data to deployed models with monitoring, versioning, and testing.
+An end-to-end repository for machine learning workflows, covering the full lifecycle from raw data to deployment readiness.
 
-## 🎯 Goals
+---
 
-- Show mastery over the end-to-end ML pipeline
-- Use modular and scalable project structures
-- Add real projects under a unified engineering framework
+## 📌 Project Orientation
 
-## 📁 Structure
+**What**: End-to-end ML workflows with full lifecycle — from data to deployment readiness. 
+**Why**: Demonstrates proficiency in engineering, modeling, and ML system design. 
+**Where**: Focuses on real projects with clean pipelines, reproducibility, and evaluation. 
+**Which**: Best for structured classification and regression problems. 
+**How**: Clean data → engineer features → train & evaluate models → automate pipelines.
 
-- pipeline_core/
-    - data_ingestion/
-    - preprocessing/
-    - feature_engineering/
-    - model_training/
-    - evaluation/
-    - model_registry/
-    - monitoring/
+---
 
-- utilities/
-    - logger/
-    - config_manager/
-    - experiment_tracker/
-    - utils/
+## 📁 Folder Structure
 
-- projects/
-    - NLP_Intelligence_Hub/ → see project README below
+```bash
+Fullstack-ML-Pipeline/
+│
+├── README.md
+│
+├── pipeline_core/
+│   ├── data_ingestion/
+│   ├── preprocessing/
+│   ├── feature_engineering/
+│   ├── model_training/
+│   ├── evaluation/
+│   ├── model_registry/
+│   └── monitoring/
+│
+├── utilities/
+│   ├── logger/
+│   ├── config_manager/
+│   ├── experiment_tracker/
+│   └── utils/
+│
+├── All_Projects/
+│   └── NLP_Intelligence_Hub/
+│       ├── README.md
+│       ├── data_sources/
+│       ├── ingestion/
+│       ├── preprocessing/
+│       ├── model_routing/
+│       ├── nlp_models/
+│       │   ├── sentiment/
+│       │   ├── topic_modeling/
+│       │   ├── ner/
+│       │   ├── text_classification/
+│       │   ├── intent_detection/
+│       │   └── summarization/
+│       ├── outputs/
+│       └── pipeline_runner/
+│
+└── tests/
+    ├── unit_tests/
+    └── integration_tests/
+```
 
-- tests/
-    - unit_tests/
-    - integration_tests/
+---
+
+## 🛠 Tech Stack
+
+- Python, Scikit-learn, XGBoost/LightGBM 
+- MLflow, FastAPI, Docker (optional) 
+- Jupyter Notebooks, YAML, Logging
+
+---
+
+## 🚀 Goal
+
+To build real-world machine learning pipelines that demonstrate clean engineering, model reproducibility, and end-to-end deployment readiness.
+
+## Projects 
+- NLP_Intelligence_Hub
+https://github.com/AshokSirugudi/Fullstack-ML-Pipeline/tree/main/All_Projects/NLP_Intelligence_Hub
